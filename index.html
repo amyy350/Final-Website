@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Website </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+ <div id="intro">
+<div class="hero-wrapper">
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute top-0 start-0 w-100">
+    <div class="container">
+      <a class="navbar-brand" href="#">Deep Dive</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#Pop">Pop</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Rock">Rock</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Hip-Hop">Hip-Hop</a></li>
+          <li class="nav-item"><a class="nav-link" href="#RnB">R&B</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Folk">Folk</a></li>
+          <li class="nav-item"><a class="nav-link" href="#artistInfo">Artist Search</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <img src="DEEP DIVE INTO MUSIC.png" class="d-block w-100 hero-image" alt="intro image" id="introbg">
+
+</div>
+ </div>
+  
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-6 d-flex flex-column align-items-center">
+
+      <div class="img-hover-wrapper w-100 text-center mb-3"> 
+       <a href="https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF?si=1c58b428358f456c" target="_blank" id="popPlayLink">
+          <img src="mix.png" class="img-fluid w-25 clickable-img" alt="mixtape image"> 
+          <div class="img-caption">
+            <span>click me!</span>
+          </div>
+        </a>
+    </div>
+
+      <div id="popPicCarousel" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#popPicCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#popPicCarousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#popPicCarousel" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="img-hover-wrapper"> 
+            <img src= "pop1.jpeg" class="d-block w-100" alt="Picture of Michael Jackson">
+            <div class="img-caption">
+              <span> Micheal Jackson, known as the "King of Pop", is often considered one of the most culturally significant figures in the 20st century. He is one of the best-selling and successful musicians of all time with over 500 million sales and 13 Grammy Awards.
+              </span>
+              </div>
+          </div>
+        </div>
+
+          <div class="carousel-item">
+            <div class="img-hover-wrapper"> 
+            <img src="pop2.jpeg" class="d-block w-100" alt="Picture of Taylor Swift">
+            <div class="img-caption">
+              <span> Taylor Swift is one of the biggest artists of the 21st century. With an almost 2 decade long career, she continues to dominate the charts and with her dedicated fanbase, she has become a principal figure in the pop music scene with no sign of stopping.  
+              </span>
+              </div>
+          </div>
+          </div>
+
+        <div class="carousel-item">
+            <div class="img-hover-wrapper"> 
+            <img src="pop3.png" class="d-block w-100" alt="Picture of Madonna">
+            <div class="img-caption">
+              <span> Madonna, known as the "Queen of Pop", is the number one best selling female artist of all time. With 44 number-one singles and 300 million claimed sales, she is one of the biggest female pop stars in history.   
+              </span>
+              </div>
+            </div>
+          </div>
+          </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#popPicCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#popPicCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+
+      </div>
+ <div id="popSound" class="text-center mt-3 img-hover-wrapper w-100">
+        <img src="record.png" class="img-fluid w-25 clickable-img" alt="record player image"> 
+        <div class="img-caption">
+          <span>click me!</span>
+        </div>
+      </div>
+
+      <audio id="popClip" src="pop.mp3"></audio>
+    </div>
+
+
+    <div class="col-md-6">
+      <div id="Pop" class="text-bg-section">
+        <h1>Pop Music</h1>
+        <p>Pop music is a style of music that is designed for accessibility and mass appeal, often incorporating aspects of other genres into a broad genre that can be hard to formally define. Key characteristics of pop music are its use of catchy hooks, repeated choruses, bridges, and rhythms and tempos that encourage dancing.</p>
+
+        <p>Since pop music is defined by what is popular at the time, it is an ever changing genre that is highly dependent on the time period and place. The evolution of pop music included heavy influence from jazz, rock and roll, and hip hop, all of which shaped what we think of as pop music today.</p>
+
+        <p>While pop music is not a rigidly defined genre, it is the combination of other genres that work to create a genre that is able to dominate charts and air space due to its broad appeal.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-6 d-flex flex-column align-items-center">
+         <div class="img-hover-wrapper w-100 text-center mb-3"> 
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWXRqgorJj26U?si=cc4da376fff14713" target="_blank" id="rockPlay">
+        <img src="mix.png" class="img-fluid w-25 clickable-img" alt="mixtape image"> 
+        <div class="img-caption">
+              <span> click me!
+              </span>
+              </div>
+      </a>
+    </div>
+      <div id="rockPicCarousel" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#rockPicCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#rockPicCarousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#rockPicCarousel" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="img-hover-wrapper"> 
+            <img src= "rock1.webp" class="d-block w-100" alt="Picture of Elvis Presley">
+             <div class="img-caption">
+              <span> Often referred to as the “King of Rock and Roll”, Elvis Presley is one of the most culturally significant figures of the 20th century. He helped catapult rock and roll into mainstream success and is one of the defining figures of the genre.  
+              </span>
+              </div>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <div class="img-hover-wrapper">
+            <img src="rock2.jpeg" class="d-block w-100" alt="Picture of The Beatles">
+             <div class="img-caption">
+              <span> The Beatles are considered the most influential band in history, with “Beatlemania” sweeping the globe. They are the best selling music group of all time and hold the record for the most number of #1 hits on the Billboard 100.   
+              </span>
+              </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <div class="img-hover-wrapper"> 
+            <img src="rock3.jpeg" class="d-block w-100" alt="Picture of The Rolling Stones">
+             <div class="img-caption">
+              <span> The Rolling Stone were highly successful and extremely influential on the rock genre. Pioneering the sound for hard rock, they became a key figure in the “British invasion” of the 60s.    
+              </span>
+              </div>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#rockPicCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#rockPicCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+
+      </div>
+      <div id="rockSound" class="text-center mt-3 img-hover-wrapper w-100">
+        <img src="record.png" class="img-fluid w-25 clickable-img" alt="record player image"> 
+        <div class="img-caption">
+          <span>click me!</span>
+        </div>
+      </div>
+
+      <audio id="rockClip" src="rock.mp3"></audio>
+    </div>
+
+    <div class="col-md-6">
+      <div id="Rock" class="text-bg-section">
+    <h1>Rock</h1>
+    <p>The origins of rock music can be traced back to the US in the late 1940s and the early 1950s with its roots in a multitude of styles including the blues, country music, and jazz music. Characterized by its use of the electric guitar, electric bass, and percussion (produced from a drum kit), rock music became the most popular genre of music in the US from the 70s to the 2010s. There are also many subgenres of rock that have taken off, combining other genres with rock to create a new, unique sound. 
+    </p>
+    <p>	Rock music has dealt with a wide range of themes, many of which are not present in pop music, including the folk tradition of the protest song. Because of its emphasis on authenticity and its ties to the 1960s counterculture, rock music has also become associated with political activism and the push back against conformity.  
+    </p>
+    </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-6 d-flex flex-column align-items-center">
+
+      <div class="img-hover-wrapper w-100 text-center mb-3"> 
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXb8wplbC2YhV?si=88693886c2564c7d" target="_blank" id="hipPlay">
+        <img src="mix.png" class="img-fluid w-25 clickable-img" alt="mixtape image"> 
+        <div class="img-caption">
+              <span> click me!
+              </span>
+              </div>
+      </a>
+    </div>
+
+      <div id="hipPicCarousel" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#hipPicCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#hipPicCarousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#hipPicCarousel" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+               <div class="img-hover-wrapper"> 
+            <img src= "hip1.png" class="d-block w-100" alt="Picture of Tupac Shakur">
+            <div class="img-caption">
+              <span> Tupac was an incredibly influential and successful artist, with more than 75 million records worldwide. Even after death, he still remains a fixture in pop culture and a key figure in the hip-hop genre  
+              </span>
+              </div>
+          </div>
+          </div>
+          <div class="carousel-item">
+              <div class="img-hover-wrapper"> 
+            <img src="hip2.jpeg" class="d-block w-100" alt="Picture of Queen Latifah">
+            <div class="img-caption">
+              <span>  Queen Latifah is a decorated musician and actress. She paved the way for more women to reach mainstream success in the hip-hop genre. She was also the first hip hop artist to receive a star on the Hollywood Walk of Fame  
+              </span>
+              </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="img-hover-wrapper"> 
+            <img src="hip3.jpeg" class="d-block w-100" alt="Picture of Kendrick Lamar">
+            <div class="img-caption">
+              <span>  Kendrick Lamar is regarded as one of the greatest rappers of all time. He is the first musician to win a Pulitzer Prize for music outside of classical and jazz genres. His 2024 song "Not Like Us" is tied for most awarded song in Grammy history with a total of 5 Grammys.   
+              </span>
+              </div>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#hipPicCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#hipPicCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+
+      </div>
+
+      <div id="hipSound" class="text-center mt-3 img-hover-wrapper w-100">
+        <img src="record.png" class="img-fluid w-25 clickable-img" alt="record player image"> 
+        <div class="img-caption">
+          <span>click me!</span>
+        </div>
+      </div>
+
+      <audio id="hipClip" src="hip.mp3"></audio>
+    </div>
+
+    <div class="col-md-6">
+      <div id="Hip-Hop" class="text-bg-section">
+         <h1>Hip-Hop</h1>
+            <p>Hip-hop and its associated subculture originated in the early 1970s, emerging from the ethnic neighborhoods in New York City, particularly the Bronx where it is highly connected to the Black and Latino culture of the area. Characterized by rapping, beatboxing, DJ-ing, and cultural exchange, hip-hop music expanded beyond NYC to become a global phenomenon. In the US, hip-hop has made its way to several regional scenes in the West and East coast along with the South. This expansion to different parts of the country led to the emergence of different styles of hip-hop and a nationwide interest in the culture behind the music.
+            </p>
+            <p>Hip-hop and rap music has become a global phenomenon nowadays, but its origins in Black and Latino American culture has always been a defining feature in the continuation of the genre. Hip-hop music and culture reflects the realities of the communities who produce it, with many using it as a tool to shed light on social and political issues and for cultural empowerment. Hip-hop as a genre is intrinsically tied to the communities it speaks about and cannot be separated from the people it draws its inspiration from. 
+            </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-6 d-flex flex-column align-items-center">
+
+        <div class="img-hover-wrapper w-100 text-center mb-3"> 
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX0SPPXJeeVcg?si=58a646e9009240bb" target="_blank" id="rbPlay">
+        <img src="mix.png" class="img-fluid w-25 clickable-img" alt="mixtape image"> 
+        <div class="img-caption">
+              <span> click me!
+              </span>
+              </div>
+      </a>
+    </div>
+
+      <div id="rbPicCarousel" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#rbPicCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#rbPicCarousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#rbPicCarousel" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="img-hover-wrapper"> 
+            <img src= "rb1.webp" class="d-block w-100" alt="Picture of Aretha Franklin">
+            <div class="img-caption">
+              <span>  Aretha Franklin, dubbed the “Queen of Soul” is one of the best selling musicians of all time. She was instrumental in the popularization of R&B and soul music and was given the title of number one greatest singer of all time in 2010 by Rolling Stone.  
+              </span>
+              </div>
+          </div>
+          </div>
+
+          <div class="carousel-item">
+             <div class="img-hover-wrapper">
+            <img src="rb2.jpeg" class="d-block w-100" alt="Picture of Whitney Houston">
+                <div class="img-caption">
+                  <span> Whitney Houston was a highly decorated artist known for her vocal performances and was a key figure in bringing R&B to mainstream pop. In 2023, she was ranked #2 on Rolling Stone’s list of greatest singers of all time. 
+                  </span>
+               </div>
+          </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="img-hover-wrapper">  
+            <img src="rb3.jpeg" class="d-block w-100" alt="Picture of Stevie Wonder">
+                  <div class="img-caption">
+                    <span>  Stevie Wonder is a highly successful musician and helped reshape contemporary R&B as a genre. He helped drive R&B towards albums and is regarded as the inspiration for many artists in the R&B genre. 
+                   </span>
+                 </div>
+          </div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#rbPicCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#rbPicCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+
+      </div>
+       <div id="rbSound" class="text-center mt-3 img-hover-wrapper w-100">
+        <img src="record.png" class="img-fluid w-25 clickable-img" alt="record player image"> 
+        <div class="img-caption">
+          <span>click me!</span>
+        </div>
+      </div>
+
+      <audio id="rbClip" src="rb.mp3"></audio>
+    </div>
+
+    <div class="col-md-6">
+     <div id="RnB" class="text-bg-section">
+        <h1>Rhythm and Blues (R&B)</h1>
+           <p> Rhythm and blues (R&B) music is a genre that originated from African American communities in the 1940s in the US. It is a type of music that is deeply tied to its cultural roots and often consists of themes derived from African American history and experiences. 
+           </p>
+           <p>Classic R&B is jazz-based and often consists of guitars, pianos, drums, and saxophones with strong vocal performances. Contemporary R&B incorporates more electronic instruments and takes more inspiration from hip-hop and other music genres. 
+           </p>
+           <p>While R&B has contributed to many other influential music genres such as rock and soul music, it still remains deeply tied to its African American roots, even as the genre has expanded. Over time, R&B has evolved and incorporated more electronic elements along with creating several sub-branches of the genre. Nowadays, R&B as a genre has become more broad and has generated a more general appeal. 
+           </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-6 d-flex flex-column align-items-center">
+
+         <div class="img-hover-wrapper w-100 text-center mb-3"> 
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWVmps5U8gHNv?si=7b8446c5d7eb4c7d" target="_blank" id="folkPlay">
+        <img src="mix.png" class="img-fluid w-25 clickable-img" alt="mixtape image"> 
+        <div class="img-caption">
+              <span> click me!
+              </span>
+              </div>
+      </a>
+    </div>
+      <div id="folkPicCarousel" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#folkPicCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#folkPicCarousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#folkPicCarousel" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="img-hover-wrapper">
+            <img src= "folk1.jpeg" class="d-block w-100" alt="Picture of Bob Dylan">
+            <div class="img-caption">
+                   <span>Bob Dylan is a highly awarded musician who is known for using his music to promote social and political issues. His music is praised for its lyricism and he is still a highly relevant and respected artist today.  
+                  </span>
+                </div>
+          </div>
+          </div>
+
+          <div class="carousel-item">
+             <div class="img-hover-wrapper">
+            <img src="folk2.jpeg" class="d-block w-100" alt="Picture of Joan Baez">
+            <div class="img-caption">
+                   <span>Joan Baez is a contemporary folk musician whose songs advocated for social justice and showed that the genre can be a vessel for activism and change. 
+                  </span>
+                </div>
+          </div>
+          </div>
+
+          <div class="carousel-item">
+             <div class="img-hover-wrapper">
+            <img src="folk3.jpeg" class="d-block w-100" alt="Picture of Noah Kahan">
+            <div class="img-caption">
+                   <span> Noah Kahan is an artist who recently came into mainstream success, bringing folk music back into the mainstream and introducing the genre to a new audience . 
+                  </span>
+                </div>
+                </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#folkPicCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#folkPicCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+
+      </div>
+<div id="folkSound" class="text-center mt-3 img-hover-wrapper w-100">
+        <img src="record.png" class="img-fluid w-25 clickable-img" alt="record player image"> 
+        <div class="img-caption">
+          <span>click me!</span>
+        </div>
+      </div>
+
+      <audio id="folkClip" src="folk.mp3"></audio>
+
+    </div>
+
+    <div class="col-md-6">
+      <div id="Folk" class="text-bg-section">
+         <h1>Folk</h1>
+            <p>The definition of traditional folk music is heavily debated, but it can be described as traditional music for the community it serves, characterized by oral transmission, often cultural in nature, commemorating events, and performed over several generations. 
+            </p>
+            <p>	Contemporary folk music emerged in the mid-20th century and evolved from traditional folk music. Like traditional folk music, contemporary folk music does not really have a singular definition and instead is characterized by several similarities between the music within the genre. The similarities include: embracing acoustic or tradition based music, mainly Western-European in origin, and English based. During the cultural and political changes of the mid 60s-early 70s, contemporary folk music became associated with protest songs as it increasingly included political messages and sang about the pressing issues of the times. It has given way to many subgenres and has recently had a resurgence in mainstream culture with the rise of popularity of many folk music artists. 
+            </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ 
+ <div id="artistInfo" class="text-bg-section">
+  <pre id="output"></pre>
+  <div id="artistButtons">
+    <label for="artistName"></label>
+    <input type="text" id="artistName" placeholder="Enter artist name" />
+    <button id="fetchBtn">Fetch Artist Info</button>
+  </div>
+  </div>
+
+
+<script src="script.js"></script>
+</body>
+
+
+</html>
