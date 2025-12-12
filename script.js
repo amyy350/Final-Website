@@ -62,7 +62,7 @@ const artistButtons = document.getElementById('artistButtons');
 const output = document.getElementById('output');
 
 fetchBtn.addEventListener('click', () => {
-    output.textContent = "Artist info here";
+    output.textContent = "Please enter an artist's name.";
     artistButtons.classList.add('shrink');
 });
 
